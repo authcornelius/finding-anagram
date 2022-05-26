@@ -13,6 +13,7 @@ def find_anagrams():
 
     str1 = sorted(firstString)
     str2 = sorted(secondString)
+    print(str1)
 
     if str1 == str2:
         print('True')
